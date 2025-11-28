@@ -1,10 +1,7 @@
 package com.example.VEND.model;
 
+import com.example.VEND.model.enums.Carroceria;
 import jakarta.persistence.*;
-import org.checkerframework.common.aliasing.qual.Unique;
-
-import java.io.File;
-import java.time.LocalDate;
 
 
 @Entity

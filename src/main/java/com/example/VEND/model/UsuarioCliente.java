@@ -18,16 +18,28 @@ public class UsuarioCliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     @OneToMany (mappedBy = "usuarioCliente", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Carro> listaInteressesCar = new ArrayList<>();
+    private List<Carro> listaInteressesCar;
+
 
     private String email;
+    private String senha;
 
     public UsuarioCliente() {
     }
 
-    public UsuarioCliente(String email) {
+    public UsuarioCliente(String email, String senha) {
         this.email = email;
+        this.senha = senha;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     public long getId() {

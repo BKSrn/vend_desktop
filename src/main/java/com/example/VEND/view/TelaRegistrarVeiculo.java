@@ -1,7 +1,7 @@
 package com.example.VEND.view;
 
 import com.example.VEND.model.Carro;
-import com.example.VEND.model.Carroceria;
+import com.example.VEND.model.enums.Carroceria;
 import com.example.VEND.service.CarroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

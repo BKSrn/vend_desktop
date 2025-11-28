@@ -1,4 +1,4 @@
-package com.example.VEND.model;
+package com.example.VEND.model.enums;
 
 public enum Carroceria {
     SELECIONE("selecione"),
