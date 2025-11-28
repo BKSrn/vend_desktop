@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.VEND.view.TelaListaEstoque">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="600"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="1a2b3" binding="scrollPane">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <preferredSize width="600" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4c5d6" class="javax.swing.JTable" binding="tabelaVeiculos">
+            <constraints/>
+            <properties>
+              <autoResizeMode value="4"/>
+              <fillsViewportHeight value="true"/>
+              <preferredScrollableViewportSize width="750" height="350"/>
+              <showHorizontalLines value="true"/>
+              <showVerticalLines value="true"/>
+            </properties>
+            <clientProperties>
+              <Table.isFileList class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="7e8f9" binding="painelBotoes" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="800" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="g0h1i" class="javax.swing.JButton" binding="voltarButton">
+            <constraints/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="100" height="35"/>
+              <text value="Voltar"/>
+            </properties>
+          </component>
+          <component id="97be4" class="javax.swing.JButton" binding="detalhesButton">
+            <constraints/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="100" height="35"/>
+              <text value="Detalhes"/>
+            </properties>
+          </component>
+          <component id="j2k3l" class="javax.swing.JButton" binding="adicionarButton">
+            <constraints/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="100" height="35"/>
+              <text value="Adicionar"/>
+            </properties>
+          </component>
+          <component id="6b751" class="javax.swing.JButton" binding="atualizarButton">
+            <constraints/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="100" height="35"/>
+              <text value="Atualizar"/>
+            </properties>
+          </component>
+          <component id="p6q7r" class="javax.swing.JButton" binding="excluirButton">
+            <constraints/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="100" height="35"/>
+              <text value="Excluir"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

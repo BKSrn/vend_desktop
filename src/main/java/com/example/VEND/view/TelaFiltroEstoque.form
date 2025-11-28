@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.VEND.view.TelaFiltroEstoque">
+  <grid id="27dc6" binding="mainPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+    <margin top="50" left="100" bottom="50" right="100"/>
+    <constraints>
+      <xy x="0" y="0" width="404" height="300"/>
+    </constraints>
+    <properties>
+      <background color="-4980737"/>
+      <preferredSize width="400" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a1b2c" class="javax.swing.JTextField" binding="marcaTextField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="35"/>
+            <maximum-size width="250" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="14"/>
+          <horizontalAlignment value="0"/>
+          <text value="Marca"/>
+          <toolTipText value="Digite a marca do veiculo aqui"/>
+        </properties>
+      </component>
+      <component id="b2c3d" class="javax.swing.JTextField" binding="modeloTextField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="35"/>
+            <maximum-size width="250" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="14"/>
+          <horizontalAlignment value="0"/>
+          <text value="Modelo"/>
+          <toolTipText value="Digite a modelo do veiculo aqui"/>
+        </properties>
+      </component>
+      <component id="c3d4e" class="javax.swing.JButton" binding="filtrarButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="35"/>
+            <maximum-size width="250" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="14" style="0"/>
+          <foreground color="-13487566"/>
+          <text value="Filtrar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

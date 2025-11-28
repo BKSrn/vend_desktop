@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.VEND.view.TelaDetalhesVeiculo">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="600" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1a2b3" binding="painelPrincipal" layout-manager="BorderLayout" hgap="10" vgap="10">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4c5d6" binding="painelImagem" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-1"/>
+              <preferredSize width="300" height="300"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <component id="7e8f9" class="javax.swing.JLabel" binding="labelImagem">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-4473925"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="280" height="280"/>
+                  <text value="Imagem do Veículo"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="g0h1i" binding="painelInformacoes" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="10">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-4980737"/>
+              <preferredSize width="280" height="300"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="j2k3l" class="javax.swing.JTextField" binding="campoMarca">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Marca"/>
+                </properties>
+              </component>
+              <component id="m4n5o" class="javax.swing.JTextField" binding="campoModelo">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Modelo"/>
+                </properties>
+              </component>
+              <component id="p6q7r" class="javax.swing.JTextField" binding="campoPreco">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Preço"/>
+                </properties>
+              </component>
+              <vspacer id="s8t9u">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="v0w1x" class="javax.swing.JButton" binding="botaoAtualizar">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4980737"/>
+                  <font size="14" style="0"/>
+                  <foreground color="-16777216"/>
+                  <text value="Atualizar"/>
+                </properties>
+              </component>
+              <component id="9ddb6" class="javax.swing.JTextField" binding="campoAno">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Ano"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
