@@ -37,7 +37,7 @@ public class JpaConfig {
 
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         vendorAdapter.setGenerateDdl(true);
-        vendorAdapter.setShowSql(true);
+        vendorAdapter.setShowSql(false);
         factory.setJpaVendorAdapter(vendorAdapter);
 
         Properties jpaProperties = new Properties();

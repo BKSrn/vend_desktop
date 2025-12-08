@@ -21,7 +21,7 @@
           <font size="36"/>
           <foreground color="-16777216"/>
           <horizontalAlignment value="0"/>
-          <text value="👥&#10;"/>
+          <text value="👥 "/>
         </properties>
       </component>
       <component id="6a8c7" class="javax.swing.JLabel" binding="adminLabel">
